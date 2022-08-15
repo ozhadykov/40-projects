@@ -1,0 +1,27 @@
+body {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.container {
+  margin-top: 20%;
+}
+
+.bad {
+  background-color: #fff;
+  color: #999;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #e0e0e0;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#change {
+  margin-top: 20px;
+}

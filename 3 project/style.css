@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(236, 239, 228);
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.container {
+  background-color: rgb(209, 209, 203);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  height: 500px;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+.imageborder {
+  display: inline-block; 
+  position: relative; 
+  width: 150px; 
+  height: 150px; 
+  overflow: hidden; 
+  border-radius: 50%;  
+  margin-top: 15px;
+}
+
+
+
+.image {
+  width: 100%; 
+  height: auto;
+}
+
+.person {
+  margin-top: 20px;
+}
+
+.name {
+  font-size: 1.4rem;
+}
+
+.job {
+  color: rgb(36, 152, 158);
+  font-size: 1.2rem;
+  text-decoration: underline;
+  margin-top: -15px;
+}
+
+.about {
+  margin-top: 40px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.listcarousel {
+  margin-top: 20px;
+}
+
+ 
+.mbtn {
+  border: 0;
+  background-color: rgb(209, 209, 203);
+  font-size: 20px;
+}
+
+
+.mbtn:hover {
+  transform: scale(0.95);
+}
+
+
+
+.btn{
+  margin-top: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 25px;
+}
+
+.btn:hover {
+  transform: scale(0.98);
+}
